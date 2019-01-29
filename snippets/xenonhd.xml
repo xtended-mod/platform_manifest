@@ -4,7 +4,7 @@
   <!-- XenonHD Projects -->
 
   <project path="bionic" name="TeamHorizon/android_bionic" revision="p" groups="pdk" />
-  <project path="build/make" name="TeamHorizon/android_build" revision="p" groups="pdk" >
+<!--  <project path="build/make" name="TeamHorizon/android_build" revision="p" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -12,13 +12,13 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project> -->
   <project path="build/soong" name="TeamHorizon/android_build_soong" revision="p" groups="pdk,tradefed" >
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="frameworks/av" name="TeamHorizon/frameworks_av" revision="p" groups="pdk" />
-  <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="p" groups="pdk-cw-fs,pdk-fs" />
+<!--  <project path="frameworks/base" name="TeamHorizon/frameworks_base" revision="p" groups="pdk-cw-fs,pdk-fs" /> -->
   <project path="frameworks/native" name="TeamHorizon/frameworks_native" revision="p" groups="pdk" />
   <project path="frameworks/opt/telephony" name="TeamHorizon/android_frameworks_opt_telephony" revision="p" groups="pdk" />
   <project path="hardware/interfaces" name="TeamHorizon/android_hardware_interfaces" revision="p" groups="pdk" />
@@ -41,7 +41,7 @@
   <project path="system/sepolicy" name="TeamHorizon/android_system_sepolicy" revision="p" groups="pdk" />
   <project path="system/vold" name="TeamHorizon/android_system_vold" revision="p" groups="pdk" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="TeamHorizon/android_vendor_qcom_opensource_cryptfs_hw" revision="p" />
-  <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="p" />
+<!--  <project path="vendor/xenonhd" name="TeamHorizon/vendor_xenonhd" revision="p" /> -->
 
   <!-- Remove projects -->
   <remove-project name="device/common" />
