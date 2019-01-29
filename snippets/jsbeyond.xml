@@ -6,7 +6,7 @@
            revision="refs/heads/p" />
 
   <project path="manifest" name="platform_manifest" remote="jsbeyond" />
-  <project path="build/make" name="android_build" remote="sdhz150" >
+  <project path="build/make" name="android_build" remote="jsbeyond" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
